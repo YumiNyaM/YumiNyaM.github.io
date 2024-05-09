@@ -1,0 +1,267 @@
+/*
+Project Name: Developer Portfolio
+Author: YumiNyaM
+Author URI: https://github.com/YumiNyaM/
+Version: 1.0
+*/
+.inconsolata-firstFont {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.kode-mono-secondFont {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    background-color: #0d1117;
+}
+
+body {
+    font-family: "Inconsolata", monospace;
+    font-size: 29px;
+    background-color: #0d1117;
+}
+
+.brand {
+    font-size: 4em;
+    font-weight: 600;
+    color: white;
+    line-height: 1em;
+}
+
+.botbrand {
+    font-size: .8em !important;
+    color: #9b9b9b;
+    line-height: .9em;
+}
+
+.img-brand-h1 {
+    width: 1em;
+}
+
+
+.navbar a {
+    color: #bba9bb;
+    font-size: .8em;
+}
+
+.navbar a:hover {
+    color: #69466e;
+}
+
+a:focus,
+a:visited {
+    color: #882895;
+}
+.navbar a:active {
+    color: #fff;
+}
+
+
+a {
+    color: #882895;
+}
+
+.nav-link.disabled,
+.nav-link:disabled {
+    color: rgb(70 70 70 / 75%) !important;
+}
+.nav-link.active{
+    color: #69466e !important;
+    text-decoration: underline;
+}
+span.code-body {
+    color: #353535;
+    font-family: "Kode Mono", monospace;
+    font-size: .6em !important;
+    line-height: .7em;
+}
+
+.main {
+    padding: 0 1em;
+}
+
+.pcode-1 {
+    padding-left: 1em;
+}
+.pcode-2 {
+    padding-left: 2em;
+}
+.pcode-3 {
+    padding-left: 3em;
+}
+
+
+.pcode-h1-3 {
+    padding-left: 1em;
+}
+
+.pcode-h2-3 {
+    padding-left: 1em;
+}
+
+.mcode-2 {
+    margin-left: 2em;
+}
+
+.mcode-3 {
+    margin-left: 3em;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.hover {
+    color: #AF50E5;
+}
+
+h2 {
+    font-size: 2.8em;
+    color: #882895;
+    font-weight: 500;
+}
+
+p {
+    font-size: .9em;
+    color: antiquewhite;
+}
+
+.btn {
+    font-size: .8em;
+    color: #bba9bb;
+    font-weight: 600;
+    background-color: #b04fe6;
+    -webkit-box-shadow: 5px 4px 5px 0px rgba(189, 174, 189, .46);
+    -moz-box-shadow: 5px 4px 5px 0px rgba(189, 174, 189, .46);
+    box-shadow: 5px 4px 5px 0px rgb(189 174 189 / 46%);
+    padding: .2em 6em;
+    margin-bottom: 1em;
+}
+
+.btn:hover {
+    background-color: #882895;
+    -webkit-box-shadow: 6px -3px 5px 0px rgba(189, 174, 189, .46);
+    -moz-box-shadow: 6px -3px 5px 0px rgba(189, 174, 189, .46);
+    box-shadow: 6px -3px 5px 0px rgb(255 255 255 / 46%);
+}
+.modal .btn {
+    padding: .2em 1em;
+    margin-bottom: 0;
+}
+
+.circle-effect{
+    width: 0.7em;
+    height: 0.7em;
+    border: 1px solid #882895;
+    -moz-box-shadow: 0.3em 0.2em 0 #882895;
+    -webkit-box-shadow: 0.3em 0.2em 0 #882895;
+    box-shadow: 0.3em 0.2em 0 #882895;
+    position: absolute;
+}
+/*.projects:before {
+    content: "Work"; 
+    font-size: 5em;  
+    color: rgba(52, 166, 214, 0.4);
+    z-index: 9999;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+      
+    -webkit-pointer-events: none;
+    -moz-pointer-events: none;
+    -ms-pointer-events: none;
+    -o-pointer-events: none;
+    pointer-events: none;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+*/
+.textProjects{
+    z-index: 2;
+    position: absolute;
+}
+.projectsMarca{
+    z-index: 1;
+    position: absolute;
+}
+.projectsMarca p{
+    font-size: 7em;
+    bottom: 0;
+    text-align: right;
+    padding-right: 1em;
+    line-height: 1em;
+    position: absolute;
+    font-weight: 600;
+    color: rgb(77 77 77 / 50%);
+    width: 100%;
+}
+.tooltipCopy {
+    --bs-tooltip-bg: #b04fe6;
+    --bs-tooltip-color: #fff;
+  }
+  .modal-content{
+    background: #2c2e31;
+  }
+  p#copyEmail{
+    color: #b04fe6;
+    font-size: 1.1em;
+    text-align: center;
+    cursor: pointer;
+    border: .1em solid #b04fe6;
+    border-radius: 1em;
+    padding: 0 1em;
+    width: auto;
+    display: table;
+    min-width: 5em;
+  }
+  #copyEmail:hover{
+    color:#fff;
+    border: .1em solid #fff;
+  }
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    body {
+        font-size: 24px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    body {
+        font-size: 26px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    body{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@87.7,200..900&family=Kode+Mono:wght@400..700&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="js/base/effects.js"></script>
+    <script src="js/base/events.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>YumiNyaM | Front End Developer</title>
+</head>
+
+<body>
+    <div class="container-fluid" id="body">
+        <div class="row">
+            <nav class="navbar fixed-top d-none d-md-inline col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark align-items-center align-items-sm-start min-vh-100"
+                id="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a href="/"
+                            class="d-flex flex-column navbar-header align-items-center pb-4  mx-auto text-decoration-none">
+                            <span class="d-none d-sm-inline brand"><img src="/img/YumiLogo.png" class="img-fluid"
+                                    alt="&lt;Y&gt;"></span>
+                            <span class="d-none d-sm-inline botbrand">YumiNyaM</span>
+                        </a>
+                    </div>
+                    <div class="col-12 col-auto pt-4">
+                        <ul class="nav navbar-nav align-items-center align-items-sm-start" id="menu">
+                            <li class="nav-item">
+                                <a href="#aboutContent" id="about" class="nav-link align-middle px-0">
+                                    <i class="fs-4"></i> <span class="ms-1 d-none d-sm-inline">Sobre mí</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#projectsContent" id="projects" class="nav-link px-0 align-middle"><span
+                                        class="ms-1 d-none d-sm-inline">Proyectos</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contactContent" id="contact" class="nav-link px-0 align-middle"><span
+                                        class="ms-1 d-none d-sm-inline">Contacto</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link px-0 align-middle disabled" aria-disabled="true">
+                                    <span class="ms-1 d-none d-sm-inline">Blog</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="pre-main col-md-2 d-none d-md-inline">
+
+            </div>
+            <div class="col-12 col-md-10 main" data-bs-spy="scroll" data-bs-target="#navbar"
+                data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+                <div class="row about" name="about" id="aboutContent">
+                    <div class="col-auto">
+                        <span class="code-body">&lt;html&gt;</span><br>
+                        <span class="code-body pcode-1">&lt;body&gt;</span><br>
+                        <span class="code-body pcode-2">&lt;h1&gt;</span><br>
+                        <h1 class="pcode-h1-3"><span class="letterColor">H</span><span class="letterColor">o</span><span
+                                class="letterColor">l</span><span class="letterColor">a</span>,
+                            soy <img src="/img/YumiLogoCrop.png" class="img-fluid img-brand-h1"
+                                alt="&lt;Y&gt;">umi,<br>desarrolladora web
+                        </h1>
+                        <span class="code-body pcode-2">&lt;/h1&gt;</span>
+                    </div>
+                    <div class="col-auto" id="colAbout">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <span class="code-body pcode-2">&lt;h2&gt;</span><br>
+                                <h2 class="pcode-h2-3">Un poco de mí y lo que hago</h2>
+                                <span class="code-body pcode-2">&lt;/h2&gt;</span><br>
+                                <span class="code-body pcode-2">&lt;p&gt;</span><br>
+                                <p class="pcode-3 pb-0 mb-0">Me gusta diseñar y desarrollar todo tipo de soluciones, ya
+                                    sea solo
+                                    llamativas o
+                                    completamente funcionales y dirigidas a distintos tipos de usuarios finales. Tengo
+                                    experiencia trabajando en sitios web estáticos empleando las herramientas básicas
+                                    <strong>HTML, CSS, JavaScript y JQuery</strong>. Así mismo, tengo algo de
+                                    experiencia en la instalación y construcción de sitios web con WordPress. <br>Aunque
+                                    no sea mi actividad principal, estoy dispuesta a ponerle la misma dedicación a cada
+                                    proyecto. <br>¿Tienes algo en mente? Charlemos un poco y te puedo proponer algo para
+                                    tener ese sitio que tanto has querido...
+                                </p>
+                                <span class="code-body pcode-2">&lt;/p&gt;</span><br>
+                                <a role="button" class="mcode-3 btn btnContact" href="#contactContent">Contáctame</a>
+                            </div>
+                            <div class="col-12 col-md-6" id="wordSkillsContainer">
+                                <canvas id="wordsSkills">
+
+                                </canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row projectsContent" name="projects" id="projectsContent">
+                    <div class="col-auto" id="textProjects">
+                        <span class="code-body pcode-2">&lt;h2&gt;</span><br>
+                        <h2 class="pcode-h2-3">Mi portafolio</h2>
+                        <span class="code-body pcode-2">&lt;/h2&gt;</span><br>
+                        <span class="code-body pcode-2">&lt;p&gt;</span><br>
+                        <p class="pcode-3 pb-0 mb-0">
+                            Una selección de mis más destacados proyectos. Algunos vieron la luz y
+                            otros más ya no se encuentran disponibles.
+                        </p>
+                        <span class="code-body pcode-2">&lt;/p&gt;</span><br>
+                    </div>
+
+                    <div class="col-auto projectsMarca" id="projectsMarca">
+                        <p>Work</p>
+                    </div>
+                    <div class="col-auto">
+                        <span class="code-body pcode-2">&lt;section&gt;</span><br>
+                        <div class="row">
+                            <div class="col-auto d-none d-md-inline col-md-1"></div>
+                            <div class="col-auto col-md-3 aproject">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#site1"><img src="img/SDC.png"
+                                        alt="SDC" class="w-100" /></a>
+                            </div>
+                            <div class="col-auto col-md-3 aproject">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#site2"><img
+                                        src="img/DRantonioromero.PNG" alt="DRantonioromero" class="w-100" /></a>
+                            </div>
+                            <div class="col-auto col-md-3 aproject">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#site3"><img
+                                        src="img/uniformesANI.png" alt="Uniformes ANI" class="w-100" /></a>
+                            </div>
+                        </div>
+                        <span class="code-body pcode-2">&lt;/section&gt;</span><br>
+                    </div>
+                </div>
+                <div class="row contact" id="contactContent">
+                    <div class="col-auto">
+                        <span class="code-body pcode-2">&lt;h2&gt;</span><br>
+                        <h2 class="pcode-h2-3">Contáctame</h2>
+                        <span class="code-body pcode-2">&lt;/h2&gt;</span><br>
+                        <span class="code-body pcode-2">&lt;p&gt;</span><br>
+                        <p class="pcode-3 pb-0 mb-0">
+                            Estoy interesada en oportunidades freelance, especialmente en los proyectos ambiciosos y de
+                            largo plazo. Si tienes algún requerimiento o una pregunta, no dudes en escribirme al correo:
+                        </p>
+                        <span class="code-body pcode-2">&lt;/p&gt;</span><br>
+                        <p id="copyEmail" class="mx-auto" data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="tooltipCopy"
+                        data-bs-title="Presiona para copiar el correo">yumilalyoko@hotmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal1 -->
+    <div class="modal fade" id="site1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLabel1">Sitio: SDC</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/SitioSDC.PNG" alt="sitioSDC" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a role="button" href="https://web.archive.org/web/20181120022734/https://www.sdc.net.mx/"
+                        target="_blank" class="btn btn-primary">Ver el sitio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal2 -->
+    <div class="modal fade" id="site2" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLabel2">Sitio: Dr. Antonio Romero</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/SitioDRantonioromero.PNG" alt="sitioDRantonioromero" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a role="button" href="https://drantoniotraumatologo.com/" target="_blank"
+                        class="btn btn-primary">Ver el sitio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal3 -->
+    <div class="modal fade" id="site3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLabel3">Sitio: Uniformes ANI</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/SitioUniformesANI.PNG" alt="sitioUniformesANI" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a role="button" class="btn btn-primary" href="https://uniformesani.com.mx/" target="_blank">Ver el
+                        sitio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
