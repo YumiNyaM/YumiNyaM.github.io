@@ -239,7 +239,7 @@ p {
     border: .1em solid #fff;
   }
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
+@media (max-width: 768px) {
     body {
         font-size: 18px;
     }
