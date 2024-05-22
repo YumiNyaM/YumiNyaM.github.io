@@ -243,6 +243,24 @@ p {
     body {
         font-size: 18px;
     }
+    .pcode-1,.pcode-2,.pcode-3 {
+        padding-left: 0;
+    }
+    .pcode-h1-3, .pcode-h2-3 {
+        padding-left: .2em;
+    }
+    h1,h2,h3{
+        word-wrap: break-word;
+    }
+    h1{
+        font-size: 2.8em;        
+    }
+    h2{
+        font-size: 2.5em;
+    }
+    p#copyEmail {
+        font-size: .8em;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
