@@ -239,10 +239,12 @@ p {
     border: .1em solid #fff;
   }
 /* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 768px) {
+@media (min-width: 576px) {
     body {
         font-size: 18px;
     }
+}
+@media (max-width: 768px) {
     .pcode-1,.pcode-2,.pcode-3 {
         padding-left: 0;
     }
