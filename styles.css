@@ -112,7 +112,7 @@ span.code-body {
     margin-left: 2em;
 }
 
-.mcode-3 {
+.mcode-3, .mscode-3 {
     margin-left: 3em;
 }
 
@@ -137,6 +137,10 @@ p {
     color: antiquewhite;
 }
 
+.instruction{
+    font-size: .8em;
+    color: #882895;
+}
 .btn {
     font-size: .8em;
     color: #bba9bb;
@@ -253,15 +257,25 @@ p {
     }
     h1,h2,h3{
         word-wrap: break-word;
+        hyphens: auto;
     }
     h1{
-        font-size: 2.8em;        
+        font-size: 2.6em;        
     }
     h2{
         font-size: 2.5em;
     }
     p#copyEmail {
         font-size: .8em;
+    }
+    .mscode-3 {
+        margin-left: 0em;
+    }
+    .btn{
+        padding: .2em 4em;
+    }
+    .aproject{
+        margin-bottom: 1em;
     }
 }
 
